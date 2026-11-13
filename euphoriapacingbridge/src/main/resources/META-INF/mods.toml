@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[50,)"
+license="All Rights Reserved"
+clientSideOnly=true
+
+[[mods]]
+modId="euphoriapacingbridge"
+version="0.5.0"
+displayName="Euphoria Pacing Bridge"
+authors="AtomicX"
+logoBlur=false
+credits="Original code by AtomicX"
+description='''Euphoria Pacing Bridge:
+Seamless integration bridge linking Euphoria Pacing (Pixel AI) with Euphoria Pacing Extended (Engine).
+Provides micro-stutter frame-time feedback, conflict resolution, and zero-reload dynamic view distance scaling.
+'''
+
+[[mixins]]
+config="euphoriapacingbridge.mixins.json"
+
+[[dependencies.euphoriapacingbridge]]
+    modId="forge"
+    mandatory=true
+    versionRange="[50,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.euphoriapacingbridge]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.5,1.22)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.euphoriapacingbridge]]
+    modId="euphoriapacing"
+    mandatory=true
+    versionRange="[0.5.0,)"
+    ordering="AFTER"
+    side="CLIENT"
