@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: euphoriapacingbridge
+Specification-Vendor: AtomicX
+Specification-Version: 1
+Implementation-Title: euphoriapacingbridge
+Implementation-Version: 0.5.0
+Implementation-Vendor: AtomicX
+Implementation-Timestamp: 2026-11-16T22:05:03+0530
+MixinConfigs: euphoriapacingbridge.mixins.json
+
